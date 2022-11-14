@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .ftr {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1D1D1E;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .ftrItem {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ftrItem2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ftrLogo {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .txt {
+    color: #FFFF;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    margin-top: 10px;
+  }
+
+  .header {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: none;
+  }
+
+  .link {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #F1F3F9;
+  }
+
+  .link:link {
+    text-decoration: none;
+  }
