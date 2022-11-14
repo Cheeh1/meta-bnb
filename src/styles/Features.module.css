@@ -96,3 +96,9 @@ html {
     color: #000000;
     margin-top: 50px;
   }
+
+  /* @media screen  and (max-width: 480px) {
+      .location {
+        flex-direction: column;
+      }
+  } */
