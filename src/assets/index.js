@@ -8,5 +8,7 @@ import ftrLogo from './icon/ftr-logo.png'
 import facebook from './icon/facebook.png'
 import twitter from './icon/twitter.png'
 import instagram from './icon/instagram.png'
+import setting from './icon/setting.png'
+import menuBtn from './icon/hamburger.png'
 
-export { metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo, facebook, twitter, instagram }
+export { metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo, facebook, twitter, instagram, setting, menuBtn }

@@ -58,6 +58,28 @@ html {
   }
 
   .img {
-    width: 600px;
-    height: 500px;
+    width: 40%;
+    /* height: 500px; */
+  }
+
+  @media screen and (max-width: 480px) {
+    .flex {
+      flex-direction: column;
+      gap: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .header {
+      font-size: 4.0rem;
+    }
+
+    .txt {
+      width: 100%;
+      font-size: 1.6rem;
+    }
+
+    .img {
+      width: 90%;
+    }
   }

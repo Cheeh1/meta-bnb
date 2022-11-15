@@ -4,7 +4,7 @@ import Features from '../components/Features'
 import Cards from '../components/Cards'
 import Info from '../components/Info'
 import Footer from '../components/Footer'
-import cardData from '../data/data'
+import cardData from '../data/cardData'
 import CardsCss from '../styles/Cards.module.css'
 
 const Homepage = () => {

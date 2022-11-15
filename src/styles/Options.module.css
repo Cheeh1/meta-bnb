@@ -1,0 +1,49 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+
+  .link {
+    color: #434343;
+    font-size: 2.0rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #B4B4B4;
+    Width: 140px;
+    Height: 40px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+  }

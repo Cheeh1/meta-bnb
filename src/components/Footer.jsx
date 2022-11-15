@@ -5,13 +5,13 @@ import FooterCss from '../styles/Footer.module.css'
 const Footer = () => {
     return (
         <>
-            <section className={FooterCss.ftr}>
+            <footer className={FooterCss.ftr}>
                 <div className={FooterCss.ftrItem}>
                     <img src={ftrLogo} alt="metabnb" />
                     <div className={FooterCss.ftrLogo}>
-                        <img src={facebook} alt="facebook" />
-                        <img src={instagram} alt="instagram" />
-                        <img src={twitter} alt="twitter" />
+                        <img className={FooterCss.logo} src={facebook} alt="facebook" />
+                        <img className={FooterCss.logo}  src={instagram} alt="instagram" />
+                        <img className={FooterCss.logo}  src={twitter} alt="twitter" />
                     </div>
                     <p className={FooterCss.txt}>&copy; 2022 Metabnb</p>
                 </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-            </section>
+            </footer>
         </>
     )
 };

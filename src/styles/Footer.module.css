@@ -40,6 +40,10 @@ html {
     margin-top: 30px;
   }
 
+  .logo {
+    cursor: pointer;
+  }
+
   .txt {
     color: #FFFF;
     font-size: 1.4rem;
@@ -68,4 +72,13 @@ html {
 
   .link:link {
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 480px) {
+    .ftr {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
   }

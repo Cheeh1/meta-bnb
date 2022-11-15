@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { logo} from '../assets';
+import { logo, menuBtn} from '../assets';
 import NavbarCss from '../styles/Navbar.module.css'
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
             <nav className={NavbarCss.nav}>
                 <div>
-                    <img className={NavbarCss.img} src={ logo } alt="logo" />
+                    <img src={ logo } alt="logo" />
                 </div>
 
                 <ul className={NavbarCss.navlist}>
@@ -29,6 +29,11 @@ const Navbar = () => {
                 <div>
                     <button className={NavbarCss.navbtn}>Connect waallet</button>
                 </div>
+            </nav>
+
+            <nav className={NavbarCss.mobileNav}>
+                 <img src={ logo } alt="logo" />
+                 <img className={NavbarCss.mobileBtn} src={menuBtn} alt="logo" />
             </nav>
         </>
     )

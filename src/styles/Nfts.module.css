@@ -50,4 +50,5 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: flex-stretch;
+    margin-bottom: 100px;
   }

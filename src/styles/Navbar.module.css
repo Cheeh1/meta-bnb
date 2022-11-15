@@ -45,6 +45,14 @@ body {
   font-weight: 400;
 }
 
+.navlink:hover {
+  color: #91185a;
+}
+
+.navlink:active {
+  color: #91185a;
+}
+
 .navlink:link {
     text-decoration: none;
 }
@@ -58,4 +66,37 @@ body {
   border-radius: 10px;
   font-size: 1.4rem;
   cursor: pointer;
+}
+
+.mobileNav {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+
+.mobileBtn {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen  and (max-width: 890px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+    justify-content: space-around;
+  }
 }
