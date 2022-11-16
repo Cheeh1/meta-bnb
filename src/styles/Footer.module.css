@@ -76,9 +76,18 @@ html {
 
   @media screen and (max-width: 480px) {
     .ftr {
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      padding-left: 50px;
+      gap: 50px;
     }
+  }
 
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .ftr {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      padding-left: 100px;
+      gap: 50px;
+    }
   }

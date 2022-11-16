@@ -1,5 +1,5 @@
 import React from "react";
-import { setting } from "../assets";
+import { arrow, setting } from "../assets";
 import OptionsCss from "../styles/Options.module.css";
 
 const Options = () => {
@@ -24,23 +24,30 @@ const Options = () => {
       </section>
 
       {/* Mobile view */}
-      <section className={OptionsCss.navDropdown}>
-            <div className={OptionsCss.dropdown}>
-            <div className={OptionsCss.btn}>
-                <p className={OptionsCss.btnTxt}>Location</p>
-                <img src={setting} alt="logo" />
+      <section className={OptionsCss.navFlex}>
+        <div className={OptionsCss.navDropdown}>
+          <div className={OptionsCss.dropdown}>
+            <div className={OptionsCss.dropdownBtn}>
+              <p className={OptionsCss.btnTxt}>Location Options</p>
+              <img src={arrow} alt="logo" />
             </div>
             <div className={OptionsCss.dropdownContent}>
-                <p>Resturant</p>
-                <p>Cottage</p>
-                <p>Castle</p>
-                <p>fantast city</p>
-                <p>beach</p>
-                <p>Carbins</p>
-                <p>Off-grid</p>
-                <p>Farm</p>
+              <p>Resturant</p>
+              <p>Cottage</p>
+              <p>Castle</p>
+              <p>fantast city</p>
+              <p>beach</p>
+              <p>Carbins</p>
+              <p>Off-grid</p>
+              <p>Farm</p>
             </div>
-            </div>
+          </div>
+        </div>
+
+        <div className={OptionsCss.btn}>
+          <p className={OptionsCss.btnTxt}>Location</p>
+          <img src={setting} alt="logo" />
+        </div>
       </section>
     </>
   );

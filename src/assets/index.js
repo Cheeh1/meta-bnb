@@ -10,5 +10,6 @@ import twitter from './icon/twitter.png'
 import instagram from './icon/instagram.png'
 import setting from './icon/setting.png'
 import menuBtn from './icon/hamburger.png'
+import arrow from './icon/Arrow-down.png'
 
-export { metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo, facebook, twitter, instagram, setting, menuBtn }
+export { metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo, facebook, twitter, instagram, setting, menuBtn, arrow }

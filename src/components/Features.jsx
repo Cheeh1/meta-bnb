@@ -28,13 +28,13 @@ const Features = () => {
             <button className={FeaturesCss.btn}>Search</button>
           </div>
         </div>
-        <img src="/images/grid-pics.png" alt="grid-pictures" />
+        <img className={FeaturesCss.img} src="/images/grid-pics.png" alt="grid-pictures" />
       </section>
 
-      <section className={FeaturesCss.logo}>
-        <img src={mbtoken} alt="mbtoken" />
-        <img src={metamask} alt="metamusk" />
-        <img src={opensea} alt="opensea" />
+      <section className={FeaturesCss.logos}>
+        <img className={FeaturesCss.logo} src={mbtoken} alt="mbtoken" />
+        <img className={FeaturesCss.logo} src={metamask} alt="metamusk" />
+        <img className={FeaturesCss.logo} src={opensea} alt="opensea" />
       </section>
 
       <h3 className={FeaturesCss.title}>
