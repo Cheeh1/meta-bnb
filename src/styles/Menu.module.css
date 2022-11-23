@@ -1,0 +1,113 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: 'Red Rose', cursive;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .display {
+    display: none;
+  }
+
+  /* .active {
+    display: none;
+  } */
+  
+  .closeBtn {
+    cursor: pointer;
+    width: 30px;
+  }
+
+  .mobileFlex {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 1%;
+    right: 1%;
+    top: 10%;
+    opacity: 0.9;
+    border: 1px solid #811350;
+    border-radius: 30px;
+  }
+  
+  .mobileList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  .mobilelink {
+    font-size: 2.5rem;
+    color: #434343;
+    font-weight: 400;
+  }
+  
+  .mobilelink:hover {
+    color: #91185a;
+  }
+  
+  .mobilelink:link {
+    text-decoration: none;
+  }
+  
+  .mobileBtn2 {
+    background-image: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    color: #ffffff;
+    display: flex;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 2.0rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    .display {
+        display: none;
+      }
+
+      .active {
+        display: block;
+      }
+
+      .mobileFlex {
+        margin-left: auto;
+        margin-right: auto;
+       }
+  }
+
+  @media screen and (min-width: 481px)  and (max-width: 890px) {
+    .display {
+        display: none;
+      }
+
+      .active {
+        display: block;
+      }
+
+      .mobileFlex {
+       margin-left: auto;
+       margin-right: auto;
+      }
+  }
