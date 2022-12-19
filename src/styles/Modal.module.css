@@ -1,17 +1,132 @@
 html {
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-size: 1.6rem;
-    font-family: 'Red Rose', cursive;
-  }
-  
-  *,
-  ::before,
-  ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Red Rose', cursive;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #FFFFFF;
+  width: 40vw;
+  padding: 20px 0 20px 10px;
+  left: 30%;
+  right: 30%;
+  top: 40%;
+}
+
+.modalFlex1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+}
+
+.line {
+  width: 37vw;
+  color: rgb(250, 250, 250);
+}
+
+.connect {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #333333;
+}
+
+.closeBtn {
+  cursor: pointer;
+}
+
+.modalFlex2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.option {
+  font-weight: 400;
+  color: #333333;
+  font-size: 1.6rem;
+}
+
+.modalItem1 {
+  display: flex;
+  gap: 335px;
+  align-items: center;
+  background-color: #F8F9FA;
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  width: 38vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.modalItem2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.modalItem3 {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  background-color: #F8F9FA;
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  width: 38vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.modalItem4 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #000000;
+}

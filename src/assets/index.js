@@ -12,5 +12,13 @@ import setting from './icon/setting.png'
 import menuBtn from './icon/hamburger.png'
 import arrow from './icon/Arrow-down.png'
 import close from './icon/close.png'
+import arrowRight from './icon/arrow-right.png'
+import metaLogo from './icon/meta-logo.png'
+import walletLogo from './icon/walletconnect.png'
+import smallClose from './icon/times.png'
 
-export { metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo, facebook, twitter, instagram, setting, menuBtn, arrow, close }
+export {
+    metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo,
+    facebook, twitter, instagram, setting, menuBtn, arrow,
+    close, arrowRight, metaLogo, walletLogo, smallClose
+}

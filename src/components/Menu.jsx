@@ -1,6 +1,7 @@
 import React from "react";
 import MenuCss from '../styles/Menu.module.css'
 import { Link } from "react-router-dom";
+import Modal from "./Modal";
 // import { close } from "../assets";
 
 const Menu = (props) => {

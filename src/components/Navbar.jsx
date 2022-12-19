@@ -8,9 +8,14 @@ import Modal from "./Modal";
 
 const Navbar = () => {
   const [modalState, setModalState] = useState(false)
+  const [toggleState, setToggleState] = useState(false)
 
   const openModal = () => {
     setModalState(!modalState)
+  }
+
+  const openToggle = () => {
+    setToggleState(!toggleState)
   }
 
   return (
@@ -44,7 +49,8 @@ const Navbar = () => {
         </ul>
 
         <div>
-          <button className={NavbarCss.navbtn}>Connect waallet</button>
+          <button onClick={openToggle} className={NavbarCss.navbtn}>Connect waallet</button>
+          <Modal toggle={toggleState} action={openToggle} />
         </div>
       </nav>
 
