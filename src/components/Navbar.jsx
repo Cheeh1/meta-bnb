@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { close, logo, menuBtn } from "../assets";
 import NavbarCss from "../styles/Navbar.module.css";
@@ -54,7 +53,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      < Modal />
+      {/* < Modal /> */}
 
       {/* Mobile Navbar */}
       <nav className={NavbarCss.mobileNav}>
