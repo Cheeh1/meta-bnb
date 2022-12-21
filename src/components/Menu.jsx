@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import MenuCss from '../styles/Menu.module.css'
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
@@ -6,6 +6,12 @@ import Modal from "./Modal";
 
 const Menu = (props) => {
     const modalState = props.toggle
+    const [modalOpen, setModalOpen] = useState(false)
+
+    const modalToggle = () => {
+      setModalOpen(!modalOpen)
+    }
+    
     // const action = props.action
 
   return (
@@ -36,7 +42,8 @@ const Menu = (props) => {
             </li>
           </ul>
           <div>
-            <button className={MenuCss.mobileBtn2}>Connect wallet</button>
+            <button onClick={modalToggle} className={MenuCss.mobileBtn2}>Connect wallet</button>
+            < Modal toggle={modalOpen} action={modalToggle}/>
           </div>
         </div>
       </nav>

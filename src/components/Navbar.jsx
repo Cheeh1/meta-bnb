@@ -48,35 +48,27 @@ const Navbar = () => {
         </ul>
 
         <div>
-          <button onClick={openToggle} className={NavbarCss.navbtn}>Connect waallet</button>
+          <button onClick={openToggle} className={NavbarCss.navbtn}>
+            Connect waallet
+          </button>
           <Modal toggle={toggleState} action={openToggle} />
         </div>
       </nav>
 
-      {/* < Modal /> */}
-
       {/* Mobile Navbar */}
       <nav className={NavbarCss.mobileNav}>
         <img src={logo} alt="logo" />
-        <div onClick={openModal}  className={NavbarCss.mobileBtn}>
-          { !modalState 
-            ? 
-          (<img
-            src={menuBtn}
-            alt="logo"
-          />) 
-            :
-          (<img  
-            className={NavbarCss.closeBtn}
-            src={close} 
-            alt="close-btn" 
-          />)
-          }
+        <div onClick={openModal} className={NavbarCss.mobileBtn}>
+          {!modalState ? (
+            <img src={menuBtn} alt="logo" />
+          ) : (
+            <img className={NavbarCss.closeBtn} src={close} alt="close-btn" />
+          )}
         </div>
       </nav>
 
-          {/* Mobile Navbar menu */}
-      < Menu toggle={modalState} action={openModal}/>
+      {/* Mobile Navbar menu */}
+      <Menu toggle={modalState} action={openModal} />
     </>
   );
 };
