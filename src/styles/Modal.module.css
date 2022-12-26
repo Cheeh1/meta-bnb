@@ -56,7 +56,7 @@ body {
 
 .heading {
   display: flex;
-  gap: 300px;
+  gap: 20vw;
   align-items: center;
 }
 
@@ -129,4 +129,154 @@ body {
   font-weight: 600;
   font-size: 1.8rem;
   color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    top: 30%;
+    width: 80%;
+    left: 10%;
+  }
+
+  .heading {
+    gap: 30%;
+  }
+
+  .line {
+    width: 95%;
+  }
+
+  .connect {
+    font-size: 2.0rem;
+  }
+
+  .modalItem1 {
+    width: 95%;
+    gap: 30%;
+  }
+
+  .modalItem3 {
+    width: 95%;
+    gap: 20%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 650px) {
+  .modal {
+    top: 30%;
+    width: 80%;
+    left: 10%;
+  }
+
+  .heading {
+    gap: 45%;
+  }
+
+  .line {
+    width: 95%;
+  }
+
+  .connect {
+    font-size: 2.0rem;
+  }
+
+  .modalItem1 {
+    width: 95%;
+    gap: 50%;
+  }
+
+  .modalItem3 {
+    width: 95%;
+    gap: 40%;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 890px) {
+  .modal {
+    top: 30%;
+    width: 50%;
+    left: 25%;
+  }
+
+  .heading {
+    gap: 50%;
+  }
+
+  .line {
+    width: 93%;
+  }
+
+  .connect {
+    font-size: 2.0rem;
+  }
+
+  .modalItem1 {
+    width: 95%;
+    gap: 45%;
+  }
+
+  .modalItem3 {
+    width: 95%;
+    gap: 35%;
+  }
+}
+
+@media screen and (min-width: 891px) and (max-width: 1200px) {
+  .modal {
+    top: 30%;
+    width: 40%;
+    left: 25%;
+  }
+
+  .heading {
+    gap: 50%;
+  }
+
+  .line {
+    width: 90%;
+  }
+
+  .connect {
+    font-size: 2.4rem;
+  }
+
+  .modalItem1 {
+    width: 95%;
+    gap: 60%;
+  }
+
+  .modalItem3 {
+    width: 95%;
+    gap: 53%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  .modal {
+    top: 30%;
+    width: 40%;
+    left: 25%;
+  }
+
+  .heading {
+    gap: 50%;
+  }
+
+  .line {
+    width: 90%;
+  }
+
+  .connect {
+    font-size: 2.4rem;
+  }
+
+  .modalItem1 {
+    width: 95%;
+    gap: 60%;
+  }
+
+  .modalItem3 {
+    width: 95%;
+    gap: 53%;
+  }
 }
