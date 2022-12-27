@@ -24,12 +24,6 @@ const ErrorPage = () => {
               <p className={ErrorPageCss.errorbtntxt}>Go back</p>
             </button>
           </Link>
-
-          {/* <div>
-            <Link to="/">
-              <button className={ErrorPageCss.errorbtn2}>Take me home</button>
-            </Link>
-          </div> */}
         </div>
       </section>
     </>

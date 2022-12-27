@@ -30,13 +30,13 @@ body {
 
 .errorpagetxt {
     font-size: 2.4rem;
-    color: #1570EF;
+    color: #7c0869;
     font-weight: 400;
 }
 
 .errorheader {
     font-size: 6.0rem;
-    color: #101828;
+    color: #1a1b1d;
     letter-spacing: -0.02em;
     font-weight: 600;
 }
@@ -49,7 +49,7 @@ body {
 .errorbtnflex {
     display: flex;
     gap: 10px;
-    background-color: #1570EF;
+    background-color: #7c0869;
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 10px;
@@ -63,5 +63,4 @@ body {
     color: #FFFFFf;
     font-size: 1.4rem;
     font-weight: 600;
-    text-decoration: none;
 }
