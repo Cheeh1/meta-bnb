@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Red Rose', cursive;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.errorflex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 200px 100px;
+}
+
+.errorflexcol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.errorpagetxt {
+    font-size: 2.4rem;
+    color: #1570EF;
+    font-weight: 400;
+}
+
+.errorheader {
+    font-size: 6.0rem;
+    color: #101828;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+}
+
+.errorflexrow {
+    display: flex;
+    gap: 20px;
+}
+
+.errorbtnflex {
+    display: flex;
+    gap: 10px;
+    background-color: #1570EF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.errorbtntxt {
+    color: #FFFFFf;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}

@@ -18,9 +18,10 @@ import walletLogo from './icon/walletconnect.png'
 import smallClose from './icon/times.png'
 import heart from './icon/heart.svg'
 import heartFill from './icon/heart-fill.svg'
+import arrowLeft from './icon/arrow-left.svg'
 
 export {
     metabnb, logo, opensea, metamask, mbtoken, star, ftrLogo,
     facebook, twitter, instagram, setting, menuBtn, arrow,
-    close, arrowRight, metaLogo, walletLogo, smallClose, heart, heartFill
+    close, arrowRight, metaLogo, walletLogo, smallClose, heart, heartFill, arrowLeft
 }
