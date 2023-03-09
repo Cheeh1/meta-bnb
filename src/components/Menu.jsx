@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MenuCss from '../styles/Menu.module.css'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Modal from "./Modal";
 // import { close } from "../assets";
 
@@ -21,14 +21,14 @@ const Menu = (props) => {
             {/* <img className={MenuCss.closeBtn} onClick={action} src={close} alt="close-btn" /> */}
           <ul className={MenuCss.mobileList}>
             <li>
-              <Link className={MenuCss.mobilelink} to="/">
+              <NavLink className={(navData) => navData.isActive ? MenuCss.activelink  : MenuCss.mobilelink } to="/">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link className={MenuCss.mobilelink} to="/placeToStay">
+              <NavLink className={(navData) => navData.isActive ? MenuCss.activelink  : MenuCss.mobilelink } to="/placeToStay">
                 Place to stay
-              </Link>
+              </NavLink>
             </li>
             <li>
               <a className={MenuCss.mobilelink} href="nfts">

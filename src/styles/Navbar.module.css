@@ -43,14 +43,17 @@ body {
   font-size: 1.6rem;
   color: #434343;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .navlink:hover {
   color: #91185a;
 }
 
-.navlink:link {
-  text-decoration: none;
+.active {
+  color: #91185a;
+  text-decoration: overline;
+  font-size: 2.0rem;
 }
 
 .navbtn {

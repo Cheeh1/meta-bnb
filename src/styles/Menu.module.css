@@ -75,14 +75,17 @@ body {
   font-size: 2.5rem;
   color: #434343;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .mobilelink:hover {
   color: #91185a;
 }
 
-.mobilelink:link {
-  text-decoration: none;
+.activelink {
+  color: #91185a;
+  font-size: 3.0rem;
+  text-decoration: overline;
 }
 
 .mobileBtn2 {

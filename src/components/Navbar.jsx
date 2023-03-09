@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { close, logo, menuBtn } from "../assets";
 import NavbarCss from "../styles/Navbar.module.css";
 import Menu from "./Menu";
@@ -26,14 +26,14 @@ const Navbar = () => {
 
         <ul className={NavbarCss.navlist}>
           <li>
-            <Link className={NavbarCss.navlink} to="/">
+            <NavLink className={(navData) => navData.isActive ? NavbarCss.active : NavbarCss.navlink } to="/">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className={NavbarCss.navlink} to="/placeToStay">
+            <NavLink className={(navData) => navData.isActive ? NavbarCss.active  : NavbarCss.navlink } to="/placeToStay">
               Place to stay
-            </Link>
+            </NavLink>
           </li>
           <li>
             <a className={NavbarCss.navlink} href="#nfts">
