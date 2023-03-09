@@ -49,12 +49,8 @@ body {
   color: #91185a;
 }
 
-.navlink:active {
-  color: #91185a;
-}
-
 .navlink:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navbtn {
