@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import CardsCss from "../styles/Cards.module.css";
 import { heart, heartFill, star } from "../assets";
-// import Nfts from "./Nfts";
+import { useToggle } from "../useToggle";
 
 const Cards = (props) => {
-  const [favouriteState, setFavouriteState] = useState(false)
-  
-  const favouriteToggle = () => {
-    setFavouriteState(!favouriteState)
-  }
+
+  // Using Custom Hook
+  const [toggleState, toggle] = useToggle();
 
   return (
     <>
@@ -19,8 +17,8 @@ const Cards = (props) => {
             src={props.card.img}
             alt="image-1"
           />
-          <div onClick={favouriteToggle}>
-            {!favouriteState ? (
+          <div onClick={toggle}>
+            {!toggleState ? (
               <img
                 className={CardsCss.segmentIcon}
                 src={heart}
@@ -46,7 +44,6 @@ const Cards = (props) => {
             </div>
           </div>
         </div>
-        {/* < Nfts favouriteState={favouriteState} setFavouriteState={setFavouriteState} /> */}
       </section>
     </>
   );
